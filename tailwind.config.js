@@ -2,7 +2,11 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "berkshire-swash": ['"Berkshire Swash"', "cursive"],
+      },
+    },
   },
   plugins: [],
-}
+};

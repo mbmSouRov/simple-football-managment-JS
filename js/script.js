@@ -11,7 +11,8 @@ calculateBtn.addEventListener("click", () => {
   if (perPlayerCost.value == "") {
     alert("ggwp");
   } else {
-    playersExpensesCost.innerText = parseFloat(perPlayerCost.value) * 5;
+    playersExpensesCost.innerText =
+      parseFloat(perPlayerCost.value) * playerList.children.length;
   }
 });
 

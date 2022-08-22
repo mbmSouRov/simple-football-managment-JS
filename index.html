@@ -223,13 +223,12 @@
                 <input id="per-player-cost" class="h-3/4 w-2/4" type="text" />
               </div>
               <!-- Calculate Button -->
-              <a
+              <button
                 id="calculate-btn"
-                href="#"
                 class="inline-flex items-center py-2 px-12 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 CALCULATE
-              </a>
+              </button>
               <div class="flex justify-around my-4">
                 <p class="text-gray-400">Player Expenses</p>
                 <p class="text-gray-100">
@@ -238,22 +237,24 @@
               </div>
               <div class="flex justify-between mb-4">
                 <p class="text-gray-400">Manager</p>
-                <input class="h-3/4 w-2/4" type="text" />
+                <input id="manager-cost" class="h-3/4 w-2/4" type="text" />
               </div>
               <div class="flex justify-between mb-4">
                 <p class="text-gray-400">Coach</p>
-                <input class="h-3/4 w-2/4" type="text" />
+                <input id="coach-cost" class="h-3/4 w-2/4" type="text" />
               </div>
               <!-- Calculate Button -->
-              <a
-                href="#"
+              <button
+                id="calculate-total"
                 class="inline-flex items-center py-2 px-7 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 CALCULATE TOTAL
-              </a>
+              </button>
               <div class="flex justify-around my-4">
                 <p class="text-gray-400">Total</p>
-                <p class="text-orange-500">$<span>0000</span></p>
+                <p class="text-orange-500">
+                  $<span id="total-cost">0000</span>
+                </p>
               </div>
             </div>
           </div>
@@ -343,5 +344,9 @@
         Copyright @MBM_Sourov 2022 All Rights Reserved.
       </p>
     </footer>
+    <!-- .
+    .
+    . -->
+    <script src="js/script.js"></script>
   </body>
 </html>

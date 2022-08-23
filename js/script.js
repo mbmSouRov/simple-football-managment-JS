@@ -9,7 +9,7 @@ const totalCost = document.getElementById("total-cost");
 
 calculateBtn.addEventListener("click", () => {
   if (perPlayerCost.value == "") {
-    alert("ggwp");
+    alert("Per Player Cost input is Empty!");
   } else {
     playersExpensesCost.innerText =
       parseFloat(perPlayerCost.value) * playerList.children.length;
@@ -22,7 +22,7 @@ calculateTotalBtn.addEventListener("click", () => {
     managerCost.value == "" ||
     coachCost.value == ""
   ) {
-    alert("ggwp");
+    alert("One of the espenses value is missing!");
   } else {
     totalCost.innerText =
       parseFloat(playersExpensesCost.innerText) +

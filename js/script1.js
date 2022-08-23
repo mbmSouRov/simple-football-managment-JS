@@ -38,7 +38,7 @@ function playerAdded(player) {
     playerList.appendChild(li);
     return true;
   } else {
-    alert("Already 5 Player Inserted");
+    alert("Already 5 Player Inserted! You Can not add more than 5 players.");
     return false;
   }
 }

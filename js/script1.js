@@ -1,3 +1,7 @@
+const b = 6,
+  b = 6;
+console.log(b);
+
 const playerList = document.getElementById("player-list");
 
 const player1Name = document.getElementById("player-1-name");
@@ -55,6 +59,8 @@ function buttonDisable(playerButton) {
     "dark:focus:ring-blue-800"
   );
   playerButton.classList.add("bg-white", "text-black");
+  playerButton.setAttribute();
+  console.log(playerButton.classList);
 }
 
 player1Btn.addEventListener("click", () => {
